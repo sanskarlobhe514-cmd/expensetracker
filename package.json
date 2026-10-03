@@ -1,0 +1,22 @@
+{
+  "name": "expense-management-system",
+  "version": "1.0.0",
+  "description": "Full-stack Expense Management System with smart insights, budget tracking, and role-based administration.",
+  "scripts": {
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "build:frontend": "cd frontend && npm run build",
+    "start": "cd backend && npm start"
+  },
+  "keywords": [
+    "expense-tracker",
+    "budget-management",
+    "react",
+    "nodejs",
+    "express",
+    "sqlite",
+    "tailwind"
+  ],
+  "author": "Antigravity Engineering",
+  "license": "MIT"
+}

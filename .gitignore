@@ -1,0 +1,55 @@
+# ========================
+# Node / npm
+# ========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ========================
+# Environment files
+# ========================
+.env
+.env.local
+.env.*.local
+
+# ========================
+# Frontend build output
+# ========================
+frontend/dist/
+frontend/.vite/
+
+# ========================
+# Database (SQLite) - exclude live DB, keep schema
+# ========================
+backend/src/db/*.sqlite
+backend/src/db/*.sqlite-journal
+backend/src/db/*.sqlite-shm
+backend/src/db/*.sqlite-wal
+
+# ========================
+# Uploads / receipts
+# ========================
+backend/uploads/
+
+# ========================
+# OS files
+# ========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ========================
+# IDE files
+# ========================
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# ========================
+# Zip artifacts
+# ========================
+*.zip
